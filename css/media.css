@@ -1,0 +1,125 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#contact .info {
+		font: 13px 'OpenSans-Regular';
+	}
+
+}
+/* Medium Devices, Desktops */
+
+
+@media only screen and (max-width : 992px) {
+	#gallery .slider-container .information .title {
+		font-size: 24px;
+		line-height: 25px;
+		margin-bottom: 1%;
+	}
+	#gallery .slider-container .information .description {
+		font-size: 18px;
+		margin-bottom: 2%;
+	}
+	#gallery .slider-container .information .start-btn a{
+		font-size: 12px;
+	}
+	#contact {
+		text-align: center;
+		padding: 20px 0 25px;
+		
+	}
+	#contact ul {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	#contact ul li {
+		margin-bottom: 10px;
+	}
+	#contact ul li .description, #contact ul li .title {
+		text-align: center;
+	}
+	#contact ul li .info {
+		font-size: 16px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .logo, header nav ul{
+		text-align: center;
+	}
+	#our-services .block .info {
+		text-align: center;
+	}
+	#subscribe {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#subscribe h2, #subscribe h6 {
+		margin-bottom: 5px;
+	}
+	#contact {
+		padding-top: 100px;
+	}
+	footer {
+		text-align: center;
+	}
+	footer small {
+		float: none;
+		display: block;
+		margin-bottom: 5px;
+	}
+	footer .social-icons {
+		margin-bottom: 5px;
+	}
+	footer .privacy {
+		float: none;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width : 670px) {
+	#our-works .picture {
+		width: 48%;
+	}
+}
+
+
+@media only screen and (max-width : 580px) {
+	#gallery .slider-container .information .title {
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 3%;
+	}
+	#gallery .slider-container .information .description {
+		display: none;
+	}
+	#gallery .slider-container .information .start-btn a{
+		font-size: 10px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header nav ul li a {
+		font-size: 12px;
+	}
+	#gallery .slider-container .information .title {
+		font-size: 14px;
+		line-height: 25px;
+		margin-bottom: 0.5%;
+	}
+	#gallery .slider-container .information .description {
+		font-size: 12px;
+	}
+	#gallery .slider-container .information .start-btn a{
+		font-size: 10px;
+	}
+	#our-works .picture .hover .name-category .name {
+		font-size: 12px;
+	}
+	#our-works .picture .hover .name-category .category {
+		font-size: 10px;
+	}
+}

@@ -1,0 +1,26 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p,ol, ul, li, footer, header,
+menu, nav,  section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, li, ul {
+	list-style: none;
+}
+ul li a:link,
+ul li a:visited,
+ul li a:active,
+ul li a:hover,
+ul li a:focus {
+	text-decoration: none;
+}
+
